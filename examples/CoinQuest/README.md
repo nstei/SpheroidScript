@@ -2,33 +2,7 @@
 
 This quickstart will take you through the steps to create a simple geo-based AR game powered by the Spheroid Universe Platform.
 
-## Create an account in the Spheroid Universe Platform
-
-Before you create your app, you need to [create an account](https://spheroiduniverse.io/marketplace/register) in the Spheroid Universe Platform.
-
-If you already have an account in the Spheroid Universe Platform, you can skip this step.
-
-![](../../docs/images/01---marketplace-register.png)
-
-## Log in to the Spheroid Demiurge IDE
-
-Now you have the access to all Platform services, including the Spheroid Demiurge IDE. 
-
-Log in to the [Spheroid Demiurge IDE](https://demiurge.spheroiduniverse.io/ide), using the same email and password you used to register in the Platform.
-
-## Create your app
-
-Open the "Apps" tab and click the "Create" button. 
-
-![](../../docs/images/02---create-app-1.png)
-
-Enter the app name, leave the check on the "Create a layer corresponding to this app" box and click the "Create App" button. The app will be created along with the layer you will later use to publish the app into.
-
-![](../../docs/images/03---create-app-2.png)
-
-If the app doesn't get immediately created, and you get the error "Can't create an app because the app with the name 'xxx' already exists", it means the name you've chosen is already taken, so try another one.
-
-![](../../docs/images/04---create-app-error.png)
+Before you start, you need to [create an app](../../docs/create-app.md).
 
 ## Download the source code
 
