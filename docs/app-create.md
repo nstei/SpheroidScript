@@ -1,6 +1,6 @@
 # Create an app
 
-Before you create an app, [authorize](ide-authorize.md) in the Spheroid Demiurge IDE.
+Before you create an app, [log in](ide-login.md) to the Spheroid Demiurge IDE.
 
 Open the "Apps" tab and click the "Create" button. 
 

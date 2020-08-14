@@ -3,7 +3,7 @@
 This tutorial will take you through the steps to create and launch on your mobile phone 
 a simple app powered by the Spheroid Universe Platform. This app will 
 
-Before you start, you need to [create an app](../../docs/create-app.md).
+Before you start, you need to [create an app](../../docs/app-create.md).
 
 ## Download the source code
 
@@ -33,7 +33,7 @@ Open the "IDE" tab and select your app in the dropdown list.
 
 Left-click the root folder (with the same name as your app) to expand it and drag-n-drop the "app.json" and "Client.spheroid" files.
 
-[TODO: image]
+![](../../docs/images/hello-world-files.png)
 
 You're done! Now you can proceed to publishing the app.
 
@@ -53,17 +53,22 @@ If you don't see the four info messages, or you see error messages instead, chec
 
 Now as you have your app built and published, it's time to run it on your mobile phone.
 
-[Log in to XRHub](../../docs/xrhub-authorize.md). Swipe right through the list of worlds to find the world your app has been published into (world is called "layer" in IDE). Note that if you're not logged in, you won't see the world, because the worlds created by developers are private. In the later tutorials you will learn how to add testers to your layer aka world.
+[Log in to XRHub](../../docs/xrhub-login.md). Swipe right through the list of worlds to find the world your app has been published into (world is called "layer" in IDE). Note that if you're not logged in, you won't see the world, because the worlds created by developers are private. In the later tutorials you will learn how to add testers to your layer aka world.
 
 | ![](../../docs/images/26---xrhub-user-app.png) | ![](../../docs/images/mobile-placeholder.png) | ![](../../docs/images/mobile-placeholder.png) | ![](../../docs/images/mobile-placeholder.png) |
 | --- | --- | --- | --- |
 | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) |
 
-When you've found your world, tap the "Launch" button, and you will see the text [TODO] on the screen. Congratulations, you have successfully run your app in the XRHub! See the logs from the app in real time in the IDE in the "Client" tab in the bottom pane to find a "Hello world" log.
+When you've found your world, tap the "Launch" button, and your app will run. 
+Congratulations, you have successfully run your app in the XRHub! 
+See the logs from the app appearing in real time in the IDE in the "Client" tab 
+in the bottom pane to find a "Hello world!" log.
 
 ## Troubleshooting
 
 If you have encountered any problems, please let us know by [submitting an issue](https://github.com/SpheroidUniverse/SpheroidScript/issues/new), we will make sure to help you find the solution. Please don't hesitate to contact us, as your issues and our replies will help to make our platform better and will be valuable to other developers.
+
+See more on how to submit an issue [here](../../docs/issues.md).
 
 ## What next?
 

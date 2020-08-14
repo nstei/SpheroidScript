@@ -2,7 +2,7 @@
 
 This quickstart will take you through the steps to create a simple geo-based AR game powered by the Spheroid Universe Platform.
 
-Before you start, you need to [create an app](../../docs/create-app.md).
+Before you start, you need to [create an app](../../docs/app-create.md).
 
 ## Download the source code
 
@@ -79,31 +79,7 @@ If you don't see the four info messages, or you see error messages instead, chec
 
 Now as you have your app built and published, it's time to run it on your mobile phone.
 
-Download the XRHub Android mobile app either by [following the Google Play link](https://play.google.com/store/apps/details?id=io.spheroid.spheroidandroid) or by scanning the QR code:
-
-![](../../docs/images/15---XR-Hub-QR.png)
-
-
-| ![](../../docs/images/16---google-search.png) | ![](../../docs/images/17---google-app-1.png) | ![](../../docs/images/mobile-placeholder.png) | ![](../../docs/images/mobile-placeholder.png) |
-| --- | --- | --- | --- |
-| ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) |
-
-Currently, XRHub works on the Android devices that [support ARCore](https://developers.google.com/ar/discover/supported-devices) only. iOS version of the app will be released soon.
-
-Launch the XRHub app on your phone.
-
-
-| ![](../../docs/images/18---google-app-2.png) | ![](../../docs/images/19---xrhub-splash-1.png) | ![](../../docs/images/20---xrhub-splash-2.png) | ![](../../docs/images/21---xrhub-splash-3.png) |
-| --- | --- | --- | --- |
-| ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) |
-
-Tap the menu button in the bottom center, then tap the account icon and log in to the app using the same email and password you used to register in the Platform.
-
-| ![](../../docs/images/22---xrhub-metaworld.png) | ![](../../docs/images/23---xrhub-hub.png) | ![](../../docs/images/24---xrhub-login-1.png) | ![](../../docs/images/25---xrhub-login-2.png)
-| --- | --- | --- | --- |
-| ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) | ![](../../docs/images/pixel.png) |
-
-When you're authorized, swipe right through the list of worlds to find the world your app has been published into (world is called "layer" in IDE). Note that if you're not logged in, you won't see the world, because the worlds created by developers are private. In the later tutorials you will learn how to add testers to your layer aka world.
+[Log in to XRHub](../../docs/xrhub-login.md). Swipe right through the list of worlds to find the world your app has been published into (world is called "layer" in IDE). Note that if you're not logged in, you won't see the world, because the worlds created by developers are private. In the later tutorials you will learn how to add testers to your layer aka world.
 
 | ![](../../docs/images/26---xrhub-user-app.png) | ![](../../docs/images/mobile-placeholder.png) | ![](../../docs/images/mobile-placeholder.png) | ![](../../docs/images/mobile-placeholder.png) |
 | --- | --- | --- | --- |
@@ -114,6 +90,8 @@ When you've found your world, tap the "Launch" button, and you will see the coin
 ## Troubleshooting
 
 If you have encountered any problems, please let us know by [submitting an issue](https://github.com/SpheroidUniverse/SpheroidScript/issues/new), we will make sure to help you find the solution. Please don't hesitate to contact us, as your issues and our replies will help to make our platform better and will be valuable to other developers.
+
+See more on how to submit an issue [here](../../docs/issues.md).
 
 ## What next?
 
