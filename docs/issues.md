@@ -1,27 +1,21 @@
-# Troubleshooting
+# Submit an issue
 
-If you have encountered any problems, please let us know by [submitting an issue](https://github.com/SpheroidUniverse/SpheroidScript/issues/new), 
-we will make sure to help you find the solution. Please don't hesitate to contact us, 
-as your issues and our replies will help to make our platform better and will be valuable 
-to other developers.
+
+
+[](https://github.com/SpheroidUniverse/SpheroidScript/issues/new)
 
 ## Register in GitHub
 
 You need to be registered in GitHub before submitting an issue. 
 If you don't have an account yet, sign up [here](https://github.com/).
 
-## Share access and provide an app id
+## Provide an app id
 
-The best and fastest way to find a solution to your issue is to reproduce it, 
-i.e. to look at your app and repeat your actions that cause an error. 
-This is why we ask you to share access to your app 
-to our support account and provide an app id.
+To help us to solve your issue in the most efficient way, we kindly ask you to 
+provide us with your app id.
 
-[Add a team member](team-member-add.md) to your app 
-(full name: SpheroidSupport, email: support@spheroiduniverse.io).
-
-You can find app id on the app page. Open the "Apps" tab and open the app details page 
-by clicking on the preview. You will see the unique app id next to the owner name.
+You can find the app id on the app page. Open the "Apps" tab and open the app details page 
+by clicking on the preview. You will see the app id next to the owner name.
 
 ![](images/app-id-app-details.png)
 
@@ -30,3 +24,19 @@ while compiling or while working on the mobile device.
 
 ![](images/app-id-logs.png)
  
+## Share access to your app to the support team
+
+You can also share access to your app to the Spheroid Universe support team. 
+This way you will allow our team to access you app files and repeat your actions 
+to reproduce the problem. This is an optional step but it may be the best and fastest way 
+to find a solution to your issue. 
+
+Open the "Apps" tab and then open the app details by clicking on the preview. 
+Click the "Add" button below the list of team members in the "Team" tab. If you don't see 
+the "Add" button, it means you're not an owner of this app and therefore can't add a new member.
+
+![](images/team-member-add-1.png)
+
+When the dialog comes up, fill the form with "SpheroidSupport" and
+"support@spheroiduniverse.io", click "Add" and then "Save".
+
