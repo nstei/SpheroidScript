@@ -1,22 +1,19 @@
 # Basic Syntax
 
-From this document you'll learn the basics of how to create code 
-in SpheroidScript programming language. You can run the examples by creating 
+From this document you'll learn the basics of Spheroid Script. You can run the examples by creating 
 a simple [Hello world](../examples/HelloWorld/README.md) app and replacing the code in the 
 "Client.spheroid" file with the code from the examples.
 
-Try in out!
+Try it out!
 
 If you have encountered any problems, please let us know by 
 [submitting an issue](https://github.com/SpheroidUniverse/SpheroidScript/issues/new), 
 we will make sure to help you find the solution.
-See our [recommendations](issues.md) on how to write an issue.
+See our [recommendations](issues.md) on how to submit an issue.
 
 ## Program entry point
 
 An entry point of an application is the `main` function.
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
 ```
 fun main() {
@@ -26,13 +23,9 @@ fun main() {
 
 [TODO: скриншот с нижней панели с логами]
 
-</div>
-
 ## Functions
 
-Here is an example of a function that has two parameters and returns a value:
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
+Function that takes two parameters and returns a value:
 
 ```
 fun sum(a, b) {
@@ -45,25 +38,7 @@ fun main() {
 }
 ```
 
-</div>
-
-Function with an expression body and inferred return type:
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
-
-```
-fun sum(a, b) = a + b
-
-fun main() {
-    println("sum of 5 and 8 is ${sum(5, 8)}")
-}
-```
-
-</div>
-
-Function returning no meaningful value:
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
+Function returning no value:
 
 ```
 fun printSum(a, b) {
@@ -75,13 +50,9 @@ fun main() {
 }
 ```
 
-</div>
-
 ## Variables
 
 Read-only local variables are defined using the keyword `val`. They can be assigned a value only once.
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
 ```
 fun main() {
@@ -90,49 +61,37 @@ fun main() {
 }
 ```
 
-</div>
-
 Variables that can be reassigned use the `var` keyword:
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
 ```
 fun main() {
-    var x = 5 // `Int` type is inferred
-    x += 1
+    var x = 5
+    x = x + 1
     println("x = $x")
 }
 ```
 
-</div>
-
 Top-level variables:
 
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
-
 ```
-val PI = 3.14
-var x = 0
+val a = "Foo"
+var b = 0
 
-fun incrementX() { 
-    x += 1 
+fun incrementB() { 
+    b += 1 
 }
 
 fun main() {
-    println("x = $x; PI = $PI")
-    incrementX()
-    println("incrementX()")
-    println("x = $x; PI = $PI")
+    println("a = $a; b = $b")
+    incrementB()
+    println("incrementB()")
+    println("a = $a; b = $b")
 }
 ```
 
-</div>
-
 ## Comments
 
-SpheroidScript supports single-line (or _end-of-line_) and multi-line (_block_) comments.
-
-<div class="sample" markdown="1" theme="idea" data-highlight-only>
+Spheroid Script supports single-line (or _end-of-line_) and multi-line (_block_) comments.
 
 ```
 // This is an end-of-line comment
@@ -141,31 +100,28 @@ SpheroidScript supports single-line (or _end-of-line_) and multi-line (_block_) 
    on multiple lines. */
 ```
 
-</div>
 
 ## String templates
 
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
+String literals may contain template expressions, i.e. pieces of code that are evaluated and whose results are concatenated into the string. A template expression starts with a dollar sign ($) and consists of either a simple name:
 
 ```
 fun main() {
-    var a = 1
-    // simple name in template:
-    val s1 = "a is $a" 
-    
-    a = 2
-    // arbitrary expression in template:
-    val s2 = "${s1.replace("is", "was")}, but now is $a"
-
-    println(s2)
+    val i = 10
+    println("i = $i") // prints "i = 10"
 }
 ```
 
-</div>
+or an arbitrary expression in curly braces:
+
+```
+fun main() {
+    val s = "abc"
+    println("$s.length is ${s.length}") // prints "abc.length is 3"
+}
+```
 
 ## Conditional expressions
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
 ```
 fun maxOf(a, b) {
@@ -181,25 +137,19 @@ fun main() {
 }
 ```
 
-</div>
-
 `if` can also be used as an expression:
 
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
-
 ```
-fun maxOf(a, b) = if (a > b) a else b
+fun maxOf(a, b) {
+    return if (a > b) a else b
+}
 
 fun main() {
     println("max of 0 and 42 is ${maxOf(0, 42)}")
 }
 ```
 
-</div>
-
 ## `for` loop
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
 ```
 fun main() {
@@ -210,30 +160,9 @@ fun main() {
 }
 ```
 
-</div>
-
 ## Ranges
 
-Checking if a number is within a range using `in` operator:
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
-
-```
-fun main() {
-    val x = 10
-    val y = 9
-    if (x in 1..y+1) {
-        println("fits in range")
-    }
-}
-```
-
-</div>
-
-
 Iterating over a range:
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
 ```
 fun main() {
@@ -243,13 +172,9 @@ fun main() {
 }
 ```
 
-</div>
-
 ## Collections
 
 Iterating over a collection:
-
-<div class="sample" markdown="1" theme="idea" data-min-compiler-version="1.3">
 
 ```
 fun main() {
@@ -259,5 +184,3 @@ fun main() {
     }
 }
 ```
-
-</div>
