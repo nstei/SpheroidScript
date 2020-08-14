@@ -11,12 +11,20 @@ and open the app details by clicking on the preview.
 Click the "Add" button below the list of team members in the "Team" tab. If you don't see 
 the "Add" button, it means you're not an owner of this app and therefore can't add a new member.
 
+![](images/team-member-add-1.png)
+
 When the dialog comes up, enter an email and a full name of the new team member and then 
 press "Add" and "Save".
+
+![](images/team-member-add-2.png)
 
 Note that you can add several team members at once, as well as remove them. 
 You also can edit other app info at the same time. 
 
-Make all the changes and press "Save". You will be redirected to the apps list. 
+Make all the changes and press "Save". 
+
+![](images/team-member-add-3.png)
+
+You will be redirected to the apps list. 
 If an error occurs, you will see a message in the top right. 
 Otherwise, the changes have been applied.

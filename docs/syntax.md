@@ -21,7 +21,7 @@ fun main() {
 }
 ```
 
-[TODO: скриншот с нижней панели с логами]
+![](images/hello-world-log.png)
 
 ## Functions
 
